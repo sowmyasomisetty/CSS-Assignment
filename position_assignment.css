@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.parent{
+    position: relative;
+    /* height: 100vh; */
+    text-align: center;
+    /* align-items: center; */
+}
+.child1{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 15px;
+    border-top: 3px solid aqua;
+    box-shadow: 2px 2px 5px rgb(143, 124, 124);
+}
+.child2{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 15px;
+    border-top: 3px solid red;
+    box-shadow: 2px 2px 5px rgb(143, 124, 124);
+}
+.child3{
+    position: absolute;
+    top: 280px;
+    left: 650px;
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 15px;
+    border-top: 3px solid yellow;
+    box-shadow: 2px 2px 5px rgb(143, 124, 124);
+}
+.child4{
+    position: absolute;
+    top: 200px;
+    left: 920px;
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgb(143, 124, 124);
+    border-top: 3px solid blue;
+}
+.bi-search{
+    position: absolute;
+    font-size: 30px;
+    left: 200px;
+    top: 100px;
+}
+.bi-house-check-fill{
+    position: absolute;
+    font-size: 35px;
+    left: 200px;
+    top: 100px;
+}
+.bi-lightbulb{
+    position: absolute;
+    font-size: 35px;
+    left: 200px;
+    top: 100px;
+}
+.bi-calculator{
+    position: absolute;
+    font-size: 35px;
+    left: 200px;
+    top: 100px;
+}

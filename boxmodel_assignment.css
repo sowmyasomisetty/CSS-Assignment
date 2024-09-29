@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 3px 15px plum;
+    margin: 150px 600px;
+}
+img{
+    width: 100%;
+    padding: 8px;
+    border-radius: 12px;
+}
+.card_body{
+    text-align: center;
+    padding: 5px;
+}
+.card_text{
+    color: rgb(207, 195, 195);
+}

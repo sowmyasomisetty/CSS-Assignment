@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 200px 550px;
+}
+img{
+    width: 250px;
+}
+.child2{
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+input{
+    margin: 10px;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+button{
+    padding: 6px 25px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}

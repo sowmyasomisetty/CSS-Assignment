@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.header>h1{
+    color: darkgreen;
+}
+span{
+    color: green;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* position: relative;
+    top: 100px;
+    left: 250px; */
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 5px;
+    padding: 10px;
+    width: 550px;
+    height: 106px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gainsboro;
+}
+.card>h2{
+    color: darkolivegreen;
+    position: relative;
+    left: 40px;
+}
+.card>p{
+    position: relative;
+    top: -15px;
+    left: 45px;
+}
+.bi{
+    font-size: 25px;
+    color: darkgreen;
+} 

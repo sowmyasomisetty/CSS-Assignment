@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 800px;
+    height: 450px;
+    background: rgb(253,69,29);
+    background: linear-gradient(90deg, rgba(253,69,29,1) 0%, rgba(252,176,69,1) 57%, rgba(180,58,58,1) 100%);   
+}
+.class1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    display: flex;
+}
+.child1>h3{
+    margin-left: 5px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.child2{
+    display: flex;
+}
+.child2>button{
+    border-radius: 20px;
+    width: 90px;
+    padding: 3px;
+    background: rgb(253,69,29);
+    color: white;
+    border: 2px solid white;
+}
+.class2{
+    margin: 10px;
+    display: flex;
+}
+.card{
+    margin: 20px;
+}
+.card>button{
+    margin: 20px 6px 0 0;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    font-weight: bold;
+    border: none;
+}
+span{
+    color: rgb(139, 123, 231);
+}
+.card1{
+    margin-top: 90px;
+    width: 350px;
+}
+.card>h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+img{
+    width: 200px;
+    height: 100%;
+    margin-left: 40px;
+}

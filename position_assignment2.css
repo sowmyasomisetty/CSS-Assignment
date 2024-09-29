@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.parent{
+    position: relative;
+    top: 250px;
+    left: 500px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    box-shadow: 2px 2px 21px blue;
+}
+.image{
+    position: inherit;
+    top: -50px;
+}
+.child{
+    position: relative;
+    top: -30px;
+}
+h3{
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+span{
+    font-weight: bold;
+    color: blue;
+}
+p{
+    padding-bottom: 10px;
+}
